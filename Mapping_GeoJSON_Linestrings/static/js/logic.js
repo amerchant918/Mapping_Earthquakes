@@ -28,7 +28,7 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
-let torontoData = "https://raw.githubusercontent.com/morningsides/Mapping_Earthquakes/Mapping_GeoJSON_Linestrings/Simple_Map/torontoRoutes.json"
+let torontoData = "https://raw.githubusercontent.com/amerchant918/Mapping_Earthquakes/Mapping_GeoJSON_Linestrings/Simple_Map/torontoRoutes.json"
 
 // Create a style for the lines.
 let myStyle = {
