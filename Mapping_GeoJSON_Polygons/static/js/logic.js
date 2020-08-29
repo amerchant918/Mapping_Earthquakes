@@ -28,7 +28,7 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
-let torontoHoods = "https://raw.githubusercontent.com/amerchant918/Mapping_Earthquakes/Mapping_GeoJSON_Polygons/Simple_Map/torontoNeighborhoods.json"
+let torontoHoods = "https:raw.githubusercontent.com/amerchant918/Mapping_Earthquakes/master/torontoNeighborhoods.json"
 
 // Create a style for polygons.
 let myStyle = {
